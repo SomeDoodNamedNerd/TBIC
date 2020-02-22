@@ -1,0 +1,13 @@
+button.menubutton {
+  background-color: #f8fcb5;
+  cursor: pointer;
+  transition: 1.5s ease-in-out;
+  transition-timing-function: ease-in-out;
+  border: 3px solid #484936;
+  border-radius: 4px;
+  padding: 2px
+}
+button.menubutton:hover, button.menubutton:active {
+  background-color: #e9f246;
+  transform: rotate(720deg) scale(1.25);
+}

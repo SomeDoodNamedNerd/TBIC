@@ -1,0 +1,19 @@
+.link {
+  font-family: Roboto, Arial, sans-serif;
+  color: lightblue;
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+.link:hover {
+  text-decoration: none;
+}
+.link:visited {
+  text-decoration: none;
+  color: purple
+}
+.link:active {
+  text-decoration: underline, line-through;
+  font-weight: bolder;
+  color: royalblue
+}
