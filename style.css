@@ -17,3 +17,17 @@
   font-weight: bolder;
   color: royalblue
 }
+
+.text {
+  font-family: Arial, Roboto, sans-serif;
+  color: black;
+  font-size: 14px;
+  cursor: zoom-in;
+  transition-duration: 0.25s
+}
+
+/* Make it so clicking on text makes it larger */
+.text:active {
+  font-size: 18px;
+  cursor: zoom-out;
+}
