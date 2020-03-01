@@ -1,4 +1,5 @@
 const toplevel = document.getElementById("toplevel")
+console.log(toplevel)
 if (toplevel === undefined || toplevel === null) {
   console.log(`Getting toplevel returned ${toplevel}`)
   var elem = document.createElement("DIV")
